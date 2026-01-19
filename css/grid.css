@@ -27,8 +27,8 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
+   background-color: rgb(215, 101, 223);
+   color: rgb(255, 255, 255);
    border-radius: 5px;
    padding: 20px;
    text-align: center;
