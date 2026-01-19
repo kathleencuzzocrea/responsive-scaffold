@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Responsive Scaffold</title>
 </head>
 <body>
+    <h1>Responsive Scaffold</h1>
+    <header class="grid-con center-grid-con">
+        <div class="box col-start-1 col-end-4 m-col-start-1 m-col-end-3">logo</div>
+        <nav class="box col-start-4 col-end-5 m-col-start-3 m-col-end-13">nav</nav>
+    </header>
     
+    <section class="grid-con center-grid-con">
+        <h2 class="hidden">Hero Section</h2>
+        <div class="box col-span-full">hero</div>
+    </section>
+
+    <section class="grid-con center-grid-con">
+        <div class="box col-span-full m-col-start-1 m-col-end-7">a</div>
+        <div class="box col-span-full m-col-start-7 m-col-end-13">a</div>
+    </section>
+
+    <section class="grid-con center-grid-con">
+        <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-5">img</div>
+        <div class="box col-start-3 col-end-5 m-col-start-5 m-col-end-9">img</div>
+        <div class="box col-start-1 col-end-3 m-col-start-9 m-col-end-13">img</div>
+        <div class="box col-start-3 col-end-5 m-col-start-1 m-col-end-5">img</div>
+        <div class="box col-start-1 col-end-3 m-col-start-5 m-col-end-9">img</div>
+        <div class="box col-start-3 col-end-5 m-col-start-9 m-col-end-13">img</div>
+    </section>
+
+    <footer class="grid-con center-grid-con">
+        <div class="box col-span-full">footer</div>
+    </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>
