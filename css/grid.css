@@ -27,7 +27,9 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: rgb(215, 101, 223);
+   /* gave boxes a gradient for fun, used code from cssgradient.io */
+   background: #833AB4;
+   background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
    color: rgb(255, 255, 255);
    border-radius: 5px;
    padding: 20px;
